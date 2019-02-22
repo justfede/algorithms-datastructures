@@ -27,9 +27,7 @@
 let input = [1,2,3];
 
 const solution = (input) => {
-    
     let ans = [];
-    
     permute(input, input.length);
 
     function permute(arr, size){
@@ -37,11 +35,8 @@ const solution = (input) => {
             ans.push(arr);
             console.log(arr);
         }
-
         for (let i = 0; i < size ; i++){
-
             permute(arr, size -1);
-
             if (size % 2 == 1){
                 let temp = arr[0];
                 arr[0] = arr[size -1];
@@ -51,7 +46,6 @@ const solution = (input) => {
                 arr[i] = arr[size-1];
                 arr[size-1] = temp;
             }
-
         }
     }
 }
