@@ -20,8 +20,6 @@
 
     Solution Big-O: 
         Time Complexity: O(n)
-        Space Complexity: O(n)
-
 */
 
 function Node(val){
