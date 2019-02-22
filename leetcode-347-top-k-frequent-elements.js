@@ -18,7 +18,10 @@
         Time Complexity: O(n) (bucket sort)
 */  
 
-const topKFrequent = (nums, k) => {
+let nums = [1,1,1,2,2,3];
+let k = 2;
+
+const solution = (nums, k) => {
     let ans = [];
     let map = new Map();
 
@@ -43,3 +46,5 @@ const topKFrequent = (nums, k) => {
 
     return ans;
 };
+
+console.log(solution(nums, k))
