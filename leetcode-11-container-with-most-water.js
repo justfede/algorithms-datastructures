@@ -27,7 +27,7 @@ const solution = (input) => {
     while (left < right) {
         max = Math.max(max, Math.min(input[left], input[right]) * (right - left));
         if (input[left] < input[right]){
-                left++;
+            left++;
         }else{
             right--;
         }
