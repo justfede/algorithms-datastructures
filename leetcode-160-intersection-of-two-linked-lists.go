@@ -15,7 +15,8 @@
 			There are 2 nodes before the intersected node in A; There are 3 nodes before the intersected node in B.
 
 	Solution Big-O:
-
+		Time: O(n)
+		Space: O(n)
 
 */
 
